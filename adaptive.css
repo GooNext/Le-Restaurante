@@ -1,0 +1,108 @@
+@media only screen and (max-width: 1362px) {
+	.nav a {
+	display:none;
+	border:none;
+	width: auto;
+	text-align: center;
+	margin: 15px 0 0 0;
+	}
+	.nav a:hover {
+	color:none;
+	border-bottom:none;
+	}
+	nav {
+		width: 50%;
+		text-align: center;
+	}
+	.nav.responsive {
+		position: relative;
+		left:-4%;
+		text-align: left;
+	}
+	.icon {
+	width: 100px;
+	margin:50px 25px 0 0;
+	padding-left: 14%;
+	align-items: center;
+	text-align: left;
+	display: block;
+	font-size: 24px;
+	color: white;
+	}
+	.responsive .icon {
+		margin-right: 50%;
+	}
+	.nav.responsive a {
+		display: block;
+		float:none;
+	}
+	.table {
+		padding-left: 0;
+		transition: 1s;
+	}
+	.head_logo {
+		padding-top: 0;
+	}
+}
+@media only screen and (max-width: 1212px) {
+	.table{
+	display: grid;
+	grid-template-columns: 0%;
+	grid-gap: 0%;
+	padding-left: 35%;
+
+	}
+	.head_logo {
+	padding-top: 0;
+	}
+	.nav a {
+		text-align: left;
+		margin-left: 3%;
+	}
+	nav  {
+	width: 50%;
+	text-align: center;
+	margin-bottom: 10px;
+	padding-left: 100%;
+	}
+	.menu {
+	padding-left: 29%;
+	display: grid;
+	grid-template-columns: 22%;
+	}	
+	header .veg {
+	margin-left: auto;
+	}
+	.table .meat{
+	
+	}
+	.secret {
+		
+	}
+	header {
+
+	}
+
+}
+@media only screen and (max-width: 936px) {
+	.table {
+		padding-left: 35%;
+	}
+}
+@media only screen and (max-width: 776px) {
+	.table {
+		padding-left: 28%;
+	}
+}
+@media only screen and (max-width: 623px) {
+	.table {
+		padding-left: 24%;
+	}
+	.menu {
+		display: grid;
+		grid-template-columns: 2%;
+	}
+	.icon {
+		text-align: center;
+	}
+}
